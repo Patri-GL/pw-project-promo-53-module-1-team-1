@@ -2,4 +2,22 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  --brand-color: #77C59E;
+  --brand-padding: 20px;
+ --brand-title: "Crimson Text", serif; font-style: normal;
+ --brand-body: "Work Sans", sans-serif;  font-optical-sizing: auto; font-style: normal;
+ }
+
+.white-section {
+  padding: var(--brand-padding);
+}
+.white-photo {
+  width: 100%;
+}
+.white-title {
+  font-family: var(--brand-title);
+  
+}
+.body.white {
+  font-family: var(--brand-body);
 }
