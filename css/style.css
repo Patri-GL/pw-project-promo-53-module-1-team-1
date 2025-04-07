@@ -4,6 +4,7 @@
   --brand-title: "Crimson Text", serif;
   font-style: normal;
   --brand-body: "Work Sans", sans-serif;
+  --brand-black: #212529;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -29,6 +30,7 @@
 }
 .white-title {
   font-family: var(--brand-title);
+  color: var(--brand-black);
 }
 .body.white {
   font-family: var(--brand-body);
@@ -40,4 +42,15 @@ footer {
   width: 100%;
   text-align: center;
   padding: 25px;
+}
+
+.mas-btn {
+  border: solid var(--brand-black) 1px;
+  background-color: var(--brand-black);
+  color: white;
+  font-family: var(--brand-body);
+  width: 10rem;
+  height: 3rem;
+  text-align: center;
+    border-radius: 5px;
 }
