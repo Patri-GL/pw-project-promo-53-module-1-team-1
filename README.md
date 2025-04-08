@@ -9,7 +9,7 @@ Adatech website has been created as a learning exercise of module 1 within the [
 
 - [@Patri-GL](https://github.com/Patri-GL)
 - [@cristinagm92](https://github.com/cristinagm92)
-- [JessicaVR86](https://github.com/JessicaVR86)
+- [@JessicaVR86](https://github.com/JessicaVR86)
 - [@RaquelPZ](https://github.com/RaquelPZ)
 - [@ssarads](https://github.com/ssarads)
 
