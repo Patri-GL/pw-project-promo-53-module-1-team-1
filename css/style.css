@@ -15,7 +15,7 @@
   margin: 0;
   }
 .encabezado {
-  background-color: #77c59e;
+  background-color: var(--brand-color);
   color: white;
   border-color: black;
   width: 100%;
@@ -45,12 +45,14 @@ footer {
 }
 
 .mas-btn {
+  display: flex;
   border: solid var(--brand-black) 1px;
   background-color: var(--brand-black);
   color: white;
   font-family: var(--brand-body);
   width: 10rem;
   height: 3rem;
-  text-align: center;
-    border-radius: 5px;
+  justify-content: center;
+  border-radius: 5px;
+  align-items: center;
 }
