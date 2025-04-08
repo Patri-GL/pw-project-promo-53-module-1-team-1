@@ -1,7 +1,7 @@
 
 # Adatech
 
-Adatech website has been created as a learning exercise of module 1 within the [Adalab](https://adalab.es/) context of the Web Programming Intensive Bootcamp. 
+Adatech website has been created as a learning exercise of module 1 (Layout Elements & Techniques) within the [Adalab](https://adalab.es/) context of the Web Programming Intensive Bootcamp. 
 
 
 
