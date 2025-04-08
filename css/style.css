@@ -19,7 +19,7 @@
   justify-content: space-between;
   align-content: center;
   text-align: center;
-  background-color: #77c59e;
+  background-color: var(--brand-color);
   color: white;
   border-color: black;
   padding: 9px;
@@ -27,6 +27,8 @@
 
 .adatech {
   font-size: 4rem;
+  font-family: var(--brand-title);
+ 
 }
 .menu {
   text-decoration: none;
@@ -52,12 +54,13 @@
   font-family: var(--brand-body);
 }
 footer {
-  background-color: #77c59e;
+  background-color:var(--brand-color);
   color: white;
-  font-size: 50px;
+  font-size: 20px;
   width: 100%;
   text-align: center;
   padding: 25px;
+  font-family: var(--brand-title);
 }
 
 .mas-btn {
