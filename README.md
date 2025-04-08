@@ -24,7 +24,7 @@ Adatech website has been created as a learning exercise of module 1 within the [
 What did you learn while building this project? What challenges did you face and how did you overcome them?
 
 
-## Tech Stack
+## Developed with
 
-Html
-CSS
+- Html
+- CSS
