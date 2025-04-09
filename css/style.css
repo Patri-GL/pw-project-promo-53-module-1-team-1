@@ -4,34 +4,49 @@
   --brand-title: "Crimson Text", serif;
   font-style: normal;
   --brand-body: "Work Sans", sans-serif;
+  --brand-black: #212529;
   font-optical-sizing: auto;
   font-style: normal;
+  --brand-grey: #21252980;
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  }
+}
 .encabezado {
-  background-color: #77c59e;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  background-color: var(--brand-color);
   color: white;
   border-color: black;
-  width: 100%;
-  height: 100%
+  padding: 9px;
 }
 
-.white-section {
-  padding: var(--brand-padding);
-}
-.white-photo {
-  width: 100%;
-}
-.white-title {
-  font-family: var(--brand-title);
-}
-.body.white {
+.adatech {
+  font-size: 4rem;
   font-family: var(--brand-body);
+ 
+}
+.menu {
+  text-decoration: none;
+  color: white;
+  font-size: 4rem;
+}
+.logo {
+  transform: scale(1.5);
+  margin: 10px;
+}
+
+footer {
+  background-color:var(--brand-color);
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  height: 100%
 }
 footer {
   background-color: #77c59e;
@@ -40,6 +55,7 @@ footer {
   width: 100%;
   text-align: center;
   padding: 25px;
+  
 }
 
 
@@ -81,59 +97,43 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* PATRI */
+.white-section {
+  
+  padding: 20px;
+  margin: 5px;
+   justify-content: center;
+ width: 100%;
+ }
+.white-photo {
+    background-image: url(../img/2.svg);
+    background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: contain;
+  width: 100%;
+  height: 240px;
+  background-position: top;
+}
+.white-title {
+    font-family: var(--brand-title);
+  color: var(--brand-black);
+}
+.body-white {
+  font-family: var(--brand-body);
+  color: var(--brand-grey);
+}
+.mas-btn {
+  display: flex;
+  border: solid var(--brand-black) 1px;
+  background-color: var(--brand-black);
+  color: white;
+  font-family: var(--brand-body);
+  width: 10rem;
+  height: 3rem;
+  justify-content: center;
+  border-radius: 5px;
+  align-items: center;
+}
 
 
 
@@ -214,3 +214,204 @@ footer {
   }
   .crisparrafo  { margin: 10%;}
   .crish1 {margin: 5%;}
+
+
+
+
+
+
+
+
+
+/*CRISTINA*//*CRISTINA*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SARA*//*SARA*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*RAQUEL*//*RAQUEL*/
+
+
+
+
+
+
+
+
+
+
+
+
+
