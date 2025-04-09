@@ -14,11 +14,37 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  }
+}
 .encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
   background-color: var(--brand-color);
   color: white;
   border-color: black;
+  padding: 9px;
+}
+
+.adatech {
+  font-size: 4rem;
+  font-family: var(--brand-body);
+ 
+}
+.menu {
+  text-decoration: none;
+  color: white;
+  font-size: 4rem;
+}
+.logo {
+  transform: scale(1.5);
+  margin: 10px;
+}
+
+footer {
+  background-color:var(--brand-color);
+  color: white;
+  font-size: 20px;
   width: 100%;
   height: 100%
 }
@@ -33,6 +59,45 @@ footer {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PATRI */
 .white-section {
   
   padding: 20px;
@@ -69,3 +134,269 @@ footer {
   border-radius: 5px;
   align-items: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CRISTINA*//*CRISTINA*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SARA*//*SARA*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*RAQUEL*//*RAQUEL*/
+
+
+
+
+
+
+
+
+
+
+
+
+
