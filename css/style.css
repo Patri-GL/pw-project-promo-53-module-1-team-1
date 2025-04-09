@@ -7,6 +7,7 @@
   --brand-black: #212529;
   font-optical-sizing: auto;
   font-style: normal;
+  --brand-grey: #21252980;
 }
 
 * {
@@ -21,20 +22,6 @@
   width: 100%;
   height: 100%
 }
-
-.white-section {
-  padding: var(--brand-padding);
-}
-.white-photo {
-  width: 100%;
-}
-.white-title {
-  font-family: var(--brand-title);
-  color: var(--brand-black);
-}
-.body.white {
-  font-family: var(--brand-body);
-}
 footer {
   background-color: #77c59e;
   color: white;
@@ -42,8 +29,34 @@ footer {
   width: 100%;
   text-align: center;
   padding: 25px;
+  
 }
 
+
+.white-section {
+  
+  padding: 20px;
+  margin: 5px;
+   justify-content: center;
+ width: 100%;
+ }
+.white-photo {
+    background-image: url(../img/2.svg);
+    background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: contain;
+  width: 100%;
+  height: 240px;
+  background-position: top;
+}
+.white-title {
+    font-family: var(--brand-title);
+  color: var(--brand-black);
+}
+.body-white {
+  font-family: var(--brand-body);
+  color: var(--brand-grey);
+}
 .mas-btn {
   display: flex;
   border: solid var(--brand-black) 1px;
