@@ -7,6 +7,7 @@
   --brand-black: #212529;
   font-optical-sizing: auto;
   font-style: normal;
+  --brand-grey: #21252980;
 }
 
 * {
@@ -45,9 +46,16 @@ footer {
   color: white;
   font-size: 20px;
   width: 100%;
+  height: 100%
+}
+footer {
+  background-color: #77c59e;
+  color: white;
+  font-size: 50px;
+  width: 100%;
   text-align: center;
   padding: 25px;
-  font-family: var(--brand-title);
+  
 }
 
 
@@ -89,39 +97,42 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-/*PATRI*/
-/*PATRI*/
+/* PATRI */
 .white-section {
-  padding: var(--brand-padding);
-}
+  
+  padding: 20px;
+  margin: 5px;
+   justify-content: center;
+ width: 100%;
+ }
 .white-photo {
+    background-image: url(../img/2.svg);
+    background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: contain;
   width: 100%;
+  height: 240px;
+  background-position: top;
 }
 .white-title {
-  font-family: var(--brand-title);
+    font-family: var(--brand-title);
   color: var(--brand-black);
 }
-.body.white {
+.body-white {
   font-family: var(--brand-body);
+  color: var(--brand-grey);
 }
-
 .mas-btn {
+  display: flex;
   border: solid var(--brand-black) 1px;
   background-color: var(--brand-black);
   color: white;
   font-family: var(--brand-body);
   width: 10rem;
   height: 3rem;
-  text-align: center;
+  justify-content: center;
   border-radius: 5px;
+  align-items: center;
 }
 
 
@@ -187,7 +198,22 @@ footer {
 
 
 
-
+.crisimagen {background-color: #77c59e;
+  width: 50%;
+  height: 20%;}
+  .cristexto {background-color: #77c59e;
+    color: white;
+  width: 100%;
+  height: 100%;
+  
+  }
+  .crisbtn {height: 30px;
+  width: 20%;
+  margin: 20%;
+  
+  }
+  .crisparrafo  { margin: 10%;}
+  .crish1 {margin: 5%;}
 
 
 
@@ -198,17 +224,6 @@ footer {
 
 
 /*CRISTINA*//*CRISTINA*/
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -343,17 +358,6 @@ footer {
   border-radius: 25px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
