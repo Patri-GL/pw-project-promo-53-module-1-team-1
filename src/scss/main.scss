@@ -1,0 +1,28 @@
+// @use 'core/reset';
+// @use 'components/code';
+// @use 'components/links';
+// @use 'layout/page';
+// @use 'layout/header';
+// @use 'layout/footer';
+// @use 'pages/index';
+@use 'css/style';
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  background-color: turquoise;
+  color: white;
+}
+
+
