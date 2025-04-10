@@ -29,7 +29,6 @@
 .adatech {
   font-size: 4rem;
   font-family: var(--brand-body);
- 
 }
 .menu {
   text-decoration: none;
@@ -42,72 +41,36 @@
 }
 
 footer {
-  background-color:var(--brand-color);
+  background-color: var(--brand-color);
+  font-family: var(--brand-body);
   color: white;
-  font-size: 20px;
   width: 100%;
-  height: 100%
 }
-footer {
-  background-color: #77c59e;
+.end {
+  background-color: var(--brand-color);
+  font-family: var(--brand-body);
   color: white;
-  font-size: 50px;
+  font-size: 2rem;
   width: 100%;
-  text-align: center;
-  padding: 25px;
-  
+  height: 10%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  padding: 1%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* PATRI */
 .white-section {
-  
   padding: 20px;
   margin: 5px;
-   justify-content: center;
- width: 100%;
- }
+  justify-content: center;
+  width: 100%;
+}
 .white-photo {
-    background-image: url(../img/2.svg);
-    background-repeat: no-repeat;
+  background-image: url(../img/2.svg);
+  background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: contain;
   width: 100%;
@@ -115,7 +78,7 @@ footer {
   background-position: top;
 }
 .white-title {
-    font-family: var(--brand-title);
+  font-family: var(--brand-title);
   color: var(--brand-black);
 }
 .body-white {
@@ -135,193 +98,41 @@ footer {
   align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.crisimagen {background-color: #77c59e;
+.crisimagen {
+  background-color: #77c59e;
   width: 50%;
-  height: 20%;}
-  .cristexto {background-color: #77c59e;
-    color: white;
+  height: 20%;
+}
+.cristexto {
+  background-color: #77c59e;
+  color: white;
   width: 100%;
   height: 100%;
-  
-  }
-  .crisbtn {height: 30px;
+}
+.crisbtn {
+  height: 30px;
   width: 20%;
   margin: 20%;
-  
-  }
-  .crisparrafo  { margin: 10%;}
-  .crish1 {margin: 5%;}
-
-
-
-
-
-
-
-
-
-/*CRISTINA*//*CRISTINA*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*SARA*//*SARA*/
+}
+.crisparrafo {
+  margin: 10%;
+}
+.crish1 {
+  margin: 5%;
+}
+
+/*CRISTINA*/ /*CRISTINA*/
+
+/*SARA*/ /*SARA*/
 .banner {
   background-color: #77c59e;
   color: white;
   width: 100%;
-  height: 100%
+  height: 100%;
 }
 .subtitulo {
   background-color: white;
-  color:black;
+  color: black;
   text-align: center;
   padding: 40px;
   font-family: CrimsonText;
@@ -333,7 +144,7 @@ footer {
   font-family: WorkSants;
 }
 .click {
-  color:white;
+  color: white;
   background-color: black;
   width: 90%;
   text-align: center;
@@ -356,58 +167,9 @@ footer {
   border-color: black;
   border-style: solid;
   border-radius: 25px;
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.equipo{
+.equipo {
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -433,72 +195,28 @@ section {
 }
 
 .perfil_foto {
-
-width: 175px;
-height: 175px;
-border-radius: 250px;
-border-color: black;
+  width: 175px;
+  height: 175px;
+  border-radius: 250px;
+  border-color: black;
 }
 
 .perfil_txt {
-margin-top: 20px;
-width: 100%;
+  margin-top: 20px;
+  width: 100%;
 }
 
 .dos {
-font-family: Arial, Helvetica, sans-serif;
-color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
 }
 
 /* background-color: #77C59E; */
 
 @media all and (min-width: 480px) {
-.perfil{
-   background-color: blueviolet;
+  .perfil {
+    background-color: blueviolet;
+  }
 }
-}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*RAQUEL*//*RAQUEL*/
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*RAQUEL*/ /*RAQUEL*/
