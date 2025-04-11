@@ -26,8 +26,14 @@
   padding-inline: 7px;
   gap: 1rem;
   position: sticky;
-  top:0;
-  z-index: 0;
+  top: 0;
+  z-index: 1;
+ 
+}
+header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .nombre_adatech {
