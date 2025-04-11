@@ -27,17 +27,18 @@
 }
 
 .adatech {
-  font-size: 4rem;
+  font-size: 2rem;
   font-family: var(--brand-body);
  
 }
 .menu {
+  background-color: var(--brand-color);
   text-decoration: none;
   color: white;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 .logo {
-  transform: scale(1.5);
+ 
   margin: 10px;
 }
 
@@ -238,17 +239,31 @@ max-width: 1200px;
 
 
 .crisimagen {background-color: #77c59e;
-  width: 50%;
-  height: 20%;}
-  .cristexto {background-color: #77c59e;
+  background-image: url(../img/1.svg);
+  background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: contain;
+width: 100%;
+height: 240px;
+background-position: top;
+ }
+  .cristexto {background-color: var(--brand-color);
     color: white;
   width: 100%;
   height: 100%;
   
   }
-  .crisbtn {height: 30px;
-  width: 20%;
-  margin: 20%;
+  .crisbtn { display: flex;
+    border: solid var(--brand-black) 1px;
+    background-color: var(--brand-black);
+    color: white;
+    font-family: var(--brand-body);
+    width: 10rem;
+    height: 3rem;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+  
   
   }
   .crisparrafo  { margin: 10%;}
@@ -386,6 +401,7 @@ max-width: 1200px;
 }
 .espacio {
   border-color: black;
+  background-color: rgb(172, 166, 166);
   border-style: solid;
   border-radius: 10px;
   height: 50px;
@@ -393,6 +409,7 @@ max-width: 1200px;
 }
 .espacio2 {
   border-color: black;
+  background-color: rgb(172, 166, 166);
   border-style: solid;
   border-radius: 10px;
   height: 200px;
@@ -408,53 +425,7 @@ max-width: 1200px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.equipo{
+.equipo {
   background-color: white;
   display: flex;
   flex-direction: column;
