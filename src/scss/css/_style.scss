@@ -18,18 +18,16 @@
 .encabezado {
   display: flex;
   justify-content: space-between;
-  align-content: center;
-  text-align: center;
+  margin-inline: auto;
   background-color: var(--brand-color);
   color: white;
-  padding-block: 11px;
-  padding-inline: 7px;
-  gap: 1rem;
+  padding-block: 9px;
+  padding-inline: 9px;
+  gap: 1.25rem;
   position: sticky;
   top: 0;
   z-index: 1;
- 
-}
+ }
 header{
   position: sticky;
   top: 0;
@@ -55,11 +53,19 @@ header{
   background-color: var(--brand-color);
   font-family: var(--brand-body);
   color: white;
-    width: 100%;
+  width: 100%;
   height: 100%;
   text-align: center;
-  padding: 20px;
-  margin: 10px;
+  padding-block: 1rem;
+  padding-inline: 1rem;
+  letter-spacing: 0.7rem;
+  }
+  #edit2024{
+  font-family: var(--brand-body);
+   gap: 2rem;
+   text-align: center;
+   padding: 1.15rem;
+   letter-spacing:0;
   }
 
 
