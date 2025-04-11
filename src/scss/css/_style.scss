@@ -21,17 +21,20 @@
   align-content: center;
   text-align: center;
   background-color: var(--brand-color);
+
   color: white;
   border-color: black;
   padding: 9px;
 }
 
-.adatech {
+.nombre_adatech {
   font-size: 2rem;
   font-family: var(--brand-body);
+  color: white;
+  text-decoration: none;
  
 }
-.menu {
+.menulines {
   background-color: var(--brand-color);
   text-decoration: none;
   color: white;
@@ -44,6 +47,7 @@
 
 .footer {
   background-color: var(--brand-color);
+  font-family: var(--brand-body);
   color: white;
    font-size: 20px;
   width: 100%;
