@@ -24,9 +24,6 @@
   padding-block: 9px;
   padding-inline: 9px;
   gap: 1.25rem;
-  position: sticky;
-  top: 0;
-  z-index: 1;
  }
 header{
   position: sticky;
@@ -68,7 +65,31 @@ header{
    letter-spacing:0;
   }
 
+ .navbar ul{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+      
+  }
+  .menulist li a{
+    background-color: var(--brand-color);
+    font-family: var(--brand-body);
+    text-decoration: none;
+    color: white;
+  
+   
+ }
+  
 
+  @media (max-width: 600px) {
+    .menulines {
+     
+    }
+        .navbar {
+      display: inline;
+      
+  }
+}
 
 
 
