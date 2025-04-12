@@ -1,10 +1,20 @@
 @use '../core/variables' as vars;
 
-.page__footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100vw;
-    padding: 1rem;
-    color: vars.$color-secondary;
-}
+.footer {
+    background-color: var(--brand-color);
+    font-family: var(--brand-body);
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-block: 1rem;
+    padding-inline: 1rem;
+    letter-spacing: 0.7rem;
+    }
+    #edit2024{
+    font-family: var(--brand-body);
+     gap: 2rem;
+     text-align: center;
+     padding: 1.15rem;
+     letter-spacing:0;
+    }

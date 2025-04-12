@@ -1,6 +1,11 @@
-// fonts
-$font-main: 'Roboto', sans-serif;
-
-// colors
-$color-bg: #f3f4f5;
-$color-secondary: #999;
+:root {
+  --brand-color: #77c59e;
+  --brand-padding: 20px;
+  --brand-title: "Crimson Text", serif;
+  font-style: normal;
+  --brand-body: "Work Sans", sans-serif;
+  --brand-black: #212529;
+  font-optical-sizing: auto;
+  font-style: normal;
+  --brand-grey: #21252980;
+}
