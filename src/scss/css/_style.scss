@@ -30,7 +30,6 @@ header{
   top: 0;
   z-index: 1;
 }
-
 .nombre_adatech {
   font-size: 2rem;
   font-family: var(--brand-body);
@@ -42,9 +41,36 @@ header{
   text-decoration: none;
   color: white;
   font-size: 2rem;
-  margin-left: auto;
   padding: 0.25rem;
+  
 }
+
+  .menulist{
+   gap: 1rem;
+    align-items: center;
+      
+  }
+  .menulist li a{
+    background-color: var(--brand-color);
+    font-family: var(--brand-body);
+    text-decoration: none;
+    color: white;
+  
+ }
+ 
+ .menulist {
+  display: none;
+ }
+
+@media (width > 1024px){
+  .menulines {
+  display: none;
+}
+   .menulist{
+  display: flex;
+}
+}
+
 
 .footer {
   background-color: var(--brand-color);
@@ -64,35 +90,6 @@ header{
    padding: 1.15rem;
    letter-spacing:0;
   }
-
- .navbar ul{
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-      
-  }
-  .menulist li a{
-    background-color: var(--brand-color);
-    font-family: var(--brand-body);
-    text-decoration: none;
-    color: white;
-  
-   
- }
-  
-
-  @media (max-width: 600px) {
-    .menulines {
-     
-    }
-        .navbar {
-      display: inline;
-      
-  }
-}
-
-
-
 
 
 
