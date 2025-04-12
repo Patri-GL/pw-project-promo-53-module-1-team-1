@@ -224,7 +224,8 @@ padding-bottom: 30px;
 
 
 .crisgomez {margin: 0%;
-padding: 0%;}
+padding: 0%;
+background-color: #77c59e}
 
 .crisimagen {background-color: #77c59e;
 
@@ -252,11 +253,22 @@ background-position: top;
     justify-content: center;
     border-radius: 5px;
     align-items: center;
+    text-decoration: none;
   
   
   }
   .crisparrafo  { margin: 10%;}
   .crish1 {margin: 5%;}
+
+
+
+  @media (min-width: 600px) {
+  .crisgomez {
+    display: flex;
+    flex-direction: row;
+    align-items: center;}
+    .crisimagen {height: 100%;}
+  }
 
   
 
