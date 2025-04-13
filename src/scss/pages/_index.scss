@@ -116,6 +116,7 @@
   }
 }
 
+// RACHEL
 .equipo {
   background-color: white;
   display: flex;
@@ -139,6 +140,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 325px;
+  min-width: 200px;
   width: 100%;
   padding-top: 20px;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
@@ -171,14 +174,18 @@
   margin-top: 15px;
 }
 
-/* background-color: #77C59E; */
-
-@media all and (min-width: 481px) {
+@media all and (min-width: 768px) {
   .all_section {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 50px;
     width: 80%;
+  }
+  .box_perfil{
+    width: 250px;
+    min-width: 182px;
   }
 }
