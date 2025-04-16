@@ -1,61 +1,122 @@
-@use '../core/variables' as vars;
+@use "../core/variables" as vars;
 
 .subtitulo {
-  background-color: white;
-  color: black;
   text-align: center;
   padding: 40px;
   font-family: var(--brand-title);
 }
+
+.parrafo {
+  display: none;
+  font-family: var(--brand-body);
+  text-align: center;
+  padding: 40px;
+  font-size: 20px;
+}
 .menu {
+  padding: 40px;
   background-color: white;
   color: black;
-  flex-direction: row;
-  font-size: 40px;
+  font-family: var(--brand-body);
+  flex-direction: column;
+  font-size: 20px;
 }
-.click {
+input {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 8px;
+  background-color: #eeeeee;
+  border: solid 1px;
+  border-radius: 5px;
+  height: 38px;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 8px;
+  background-color: #eeeeee;
+  border: solid 1px;
+  border-radius: 5px;
+  height: 138px;
+}
+input[type="submit"] {
   color: white;
-    background-color: black;
-    width: 90%;
-    text-align: center;
-    height: 70px;
-    font-size: 25px;
-    border-radius: 10px;
-    line-height: 2.50;
-    margin: 50px;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  height: 70px;
+  font-size: 25px;
+  border-radius: 10px;
+  line-height: 2.5;
 }
+
 .mapa {
-  background-color: white;
   text-align: center;
   width: 100%;
   height: 100%;
+  margin: 1px;
+  padding: 1px;
+}
 
-}
-.espacio {
-  border-color: black;
-  background-color: rgb(235, 230, 230);
-  border-style: solid;
-  border-radius: 10px;
-  height: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+@media (min-width: 1200px) {
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
+  .subtitulo {
+    font-size: 40px;
+    flex: 100%;
+  }
+  .parrafo {
+    display: contents;
+    flex: 100%;
+    align-self: center;
+  }
+  .menu {
+    flex: 50%;
+    order: 3;
+  }
+  .mapa {
+    flex: 50%;
+  }
 }
-.espacio2 {
-  border-color: black;
-  background-color: rgb(235, 230, 230);
-  border-style: solid;
-  border-radius: 10px;
-  height: 200px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  
 
-}
-.cajita1 {
-  text-align: center;
-}
-.cajita2 {
- margin: 30px;
- font-family: var(--brand-body);
-}
+// .click {
+//   color: white;
+//   background-color: black;
+//   width: 90%;
+//   text-align: center;
+//   height: 70px;
+//   font-size: 25px;
+//   border-radius: 10px;
+//   line-height: 2.5;
+//   margin: 50px;
+// }
+
+// .espacio {
+//   border-color: black;
+//   background-color: rgb(235, 230, 230);
+//   border-style: solid;
+//   border-radius: 10px;
+//   height: 50px;
+//   margin-top: 20px;
+//   margin-bottom: 20px;
+// }
+// .espacio2 {
+//   border-color: black;
+//   background-color: rgb(235, 230, 230);
+//   border-style: solid;
+//   border-radius: 10px;
+//   height: 200px;
+//   margin-top: 20px;
+//   margin-bottom: 20px;
+// }
+// .cajita1 {
+//   text-align: center;
+// }
+// .cajita2 {
+//   margin: 30px;
+//   font-family: var(--brand-body);
+// }

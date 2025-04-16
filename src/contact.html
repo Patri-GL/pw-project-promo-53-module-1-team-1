@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/scss/main.scss"/> 
+    <title>Contact Adatech</title>
+    <link rel="stylesheet" href="/scss/main.scss" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,21 +12,52 @@
       rel="stylesheet"
     />
   </head>
+  <load src="partials/header.html" />
   <body>
-   <header>
-      <load src="partials/header.html" />
-  
-    </header> 
-
-    <main class="subtitulo">
-      <h1> Contáctanos </h1>
+    <main class="contact">
+      <h2 class="subtitulo">Contáctanos</h2>
+      <article class="parrafo">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      </article>
+      <div class="mapa">
+        <iframe
+          width="95%"
+          height="600"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+          src="https://maps.google.com/maps?width=100%25&height=600&hl=en&q=Malet%20St,%20London%20WC1E%207HU,%20United%20Kingdom+(Your%20Business%20Name)&t=&z=14&ie=UTF8&iwloc=B&output=embed"
+        ></iframe>
+      </div>
+      <form class="menu" action="https://dev.adalab.es/api/form" method="post">
+        <label for="name">
+          <span>Nombre</span>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            autocomplete="name"
+            required
+          />
+        </label>
+        <label for="email">
+          <span>Email</span>
+          <input
+            type="email"
+            nombre="correo"
+            id="correo"
+            autocomplete="email"
+            required
+          />
+        </label>
+        <label for="message">
+          <span>Mensaje</span><textarea name="message" id=""></textarea>
+        </label>
+        <input type="submit" value="Enviar" />
+      </form>
     </main>
-        <div class="mapa">
-        <div style="width: 100%"><iframe width="50%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&height=600&hl=en&q=Malet%20St,%20London%20WC1E%207HU,%20United%20Kingdom+(Your%20Business%20Name)&t=&z=14&ie=UTF8&iwloc=B&output=embed"></iframe></div>
-        </div>
-
-    </main>
-
+    <!-- 
     <main class="cajita2">
       <ul class="menu">
         <ol>Nombre</ol>
@@ -37,6 +68,7 @@
         <form class="espacio2"></form>
         </ul>
         <form class="click"><link>Submit</link></form>
-    </main>
-
-    <load src="partials/footer.html" />
+    </main> -->
+  </body>
+  <load src="partials/footer.html" />
+</html>
