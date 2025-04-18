@@ -24,6 +24,7 @@
   width: 100%;
   height: 100%;
   text-align: left;
+  margin-top: 30px;
 }
 .crisbtn {
   display: flex;
@@ -46,16 +47,26 @@
   font-family: var(--brand-title);
 }
 
+
 @media (min-width: 1200px) {
   .crisgomez {
     display: flex;
     flex-direction: row;
     align-items: center;
   }
+
+  .cristexto {
+    order: 1;
+    margin-right: 130px;
+    margin-left: 130px;
+  }
+
   .crisimagen {
+    order: 2;
     height: 100%;
   }
 }
+
 .white-section {
   padding-top: 60px;
   padding-inline: 30px;
