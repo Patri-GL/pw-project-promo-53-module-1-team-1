@@ -39,7 +39,9 @@
   align-items: center;
   text-decoration: none;
 }
-.crish2 {font-size: 16px;}
+.crish2 {
+  font-size: 16px;
+}
 .crisparrafo {
   padding-block: 2rem;
   font-size: 15px;
@@ -50,7 +52,6 @@
   font-family: var(--brand-title);
   font-size: 40px;
 }
-
 
 @media (min-width: 1200px) {
   .crisgomez {
@@ -117,14 +118,14 @@
 @media (min-width: 1200px) {
   .ladies {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
     height: 100%;
     width: 100%;
   }
   .gentleman {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     height: 100%;
     width: 100%;
