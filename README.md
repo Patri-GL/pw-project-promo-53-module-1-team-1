@@ -13,7 +13,10 @@
 - [@RaquelPZ](https://github.com/RaquelPZ)
 - [@ssarads](https://github.com/ssarads)
 
+## Project Management
 
+[Kanban](https://github.com/users/Patri-GL/projects/2)
+  
 ## License
 
 [Creative Commons Legal Code](https://creativecommons.org/legal-code-defined/)
