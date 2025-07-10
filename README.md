@@ -24,7 +24,33 @@
 
 ## Lessons Learned
 
-What did you learn while building this project? What challenges did you face and how did you overcome them?
+# HTML Fundamentals
+- Semantic HTML structure and its importance for accessibility and SEO
+- Proper document structure with <!DOCTYPE>, <html>, <head>, and <body>
+- When to use <div> vs semantic elements (<header>, <section>, <article>, etc.)
+- Form best practices and accessible form labeling
+
+# CSS Mastery
+- Box model understanding (margin, border, padding, content)
+- Specificity and the cascade - how browsers determine which styles to apply
+- Flexbox and CSS Grid for modern layouts
+- Responsive design principles (media queries, mobile-first approach)
+- BEM (Block-Element-Modifier) methodology for maintainable CSS
+
+# Development Process
+- Importance of planning before coding (wireframing, component breakdown)
+- Scrum Methodology 
+
+# Challenges & Solutions
+- Responsive design challenges and breakpoint strategies
+- CSS organization approaches that improved maintainability
+- Debugging techniques that saved time
+
+# Key Takeaways
+- How writing semantic HTML makes CSS easier to implement
+- The power of CSS when properly understood and organized
+- Importance of code validation (HTML/CSS validators)
+- Value of peer code reviews and collaborative problem solving
 
 
 ## Developed with
