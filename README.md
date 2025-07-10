@@ -25,7 +25,7 @@
 ## Lessons Learned
 
 ### HTML Fundamentals
-- Semantic HTML structure and its importance for accessibility and SEO
+- Semantic HTML structure and its importance for accessibility
 - Proper document structure with <!DOCTYPE>, <html>, <head>, and <body>
 - When to use <div> vs semantic elements (<header>, <section>, <article>, etc.)
 - Form best practices and accessible form labeling
